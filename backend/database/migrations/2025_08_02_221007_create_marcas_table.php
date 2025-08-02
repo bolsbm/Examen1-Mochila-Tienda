@@ -25,6 +25,6 @@ return new class extends Migration
         Schema::dropIfExists('marcas');
          $table->id();
          $table->string('nombre',50);
-         $table->string('descripcion',100);
+         $table->string('tipo',100);
     }
 };
