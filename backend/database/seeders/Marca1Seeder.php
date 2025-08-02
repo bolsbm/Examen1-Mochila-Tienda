@@ -29,6 +29,12 @@ class CategoriaSeeder extends Seeder
                 'created_at'=> now(),
                 'updated_at'=> now(),
             ]
+             [
+                'nombre'=> 'Nike',
+                'descripcion'=>'Mochila de Viaje,
+                'created_at'=> now(),
+                'updated_at'=> now(),
+            ]
 
         ]);
 
