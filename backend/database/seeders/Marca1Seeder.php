@@ -18,14 +18,14 @@ class CategoriaSeeder extends Seeder
 
         DB::table('marca1')->insert([
             [
-                'nombre'=> 'Calzados de varon',
-                'descripcion'=>'Calzados de varon',
+                'nombre'=> 'Totto',
+                'tipo'=>'Mochila Escolar',
                 'created_at'=> now(),
                 'updated_at'=> now(),
             ],
             [
-                'nombre'=> 'Calzados de dama',
-                'descripcion'=>'Calzados de dama',
+                'nombre'=> 'JanSport',
+                'descripcion'=>'Mochila Camping',
                 'created_at'=> now(),
                 'updated_at'=> now(),
             ]
