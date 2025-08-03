@@ -17,7 +17,7 @@ class MochilasSeeder extends Seeder
       
         $tottoId = DB::table('categoria')->where('nombre', 'Totto')->value('id');
 
-      
+    
         if ($tottoId) {
             DB::table('mochila')->insert([
                 [
@@ -28,10 +28,9 @@ class MochilasSeeder extends Seeder
                     'updated_at' => now(),
                 ],
                 
-            ])
-        } else {
-            
-            echo "Error: La marca 'Totto' no se encontró en la base de datos. Asegúrate de que CategoriaSeeder se haya ejecutado correctamente.\n";
+            ]);
+
         }
     }
 }
+
