@@ -1,6 +1,5 @@
 <?php
 
-
 namespace Database\Seeders;
 
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
@@ -16,22 +15,16 @@ class CategoriaSeeder extends Seeder
     {
         //Insertar registros a la tabla
 
-        DB::table('marca1')->insert([
+        DB::table('categoria')->insert([
             [
-                'nombre'=> 'Totto',
-                'tipo'=>'Mochila Escolar',
+                'nombre'=> 'TOTTO',
+                'origen'=>'Colombia',
                 'created_at'=> now(),
                 'updated_at'=> now(),
             ],
             [
-                'nombre'=> 'JanSport',
-                'descripcion'=>'Mochila Camping',
-                'created_at'=> now(),
-                'updated_at'=> now(),
-            ]
-             [
-                'nombre'=> 'Nike',
-                'descripcion'=>'Mochila de Viaje,
+                'nombre'=> 'NIKE',
+                'origen'=>'USA',
                 'created_at'=> now(),
                 'updated_at'=> now(),
             ]
@@ -41,6 +34,4 @@ class CategoriaSeeder extends Seeder
 
     }
 }
-
-    
 
