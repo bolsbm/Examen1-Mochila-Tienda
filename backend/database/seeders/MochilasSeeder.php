@@ -28,7 +28,7 @@ class MochilasSeeder extends Seeder
                     'updated_at' => now(),
                 ],
                 
-            ]);
+            ])
         } else {
             
             echo "Error: La marca 'Totto' no se encontró en la base de datos. Asegúrate de que CategoriaSeeder se haya ejecutado correctamente.\n";
