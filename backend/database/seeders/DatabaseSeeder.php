@@ -18,6 +18,6 @@ class DatabaseSeeder extends Seeder
 
        
         $this->call(CategoriaSeeder::class);
-         //$this->call(ClienteSeeder::class);
+         $this->call(MochilasSeeder::class);
     }
 }
