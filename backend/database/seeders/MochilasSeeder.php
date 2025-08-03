@@ -13,16 +13,20 @@ class MochilasSeeder extends Seeder
     public function run(): void
     {
         //
-         DB::table('categoria')->insert([
+         DB::table('mochila')->insert([
             [
-                'nombre'=> 'Mochila escolar',
-                'origen'=>'Colombia',
+             'nombre' => 'Mochila Urbana Classic',
+            'marca_id' => $tottoId,
+            'descripcion' => 'Mochila ideal para el día a día, con múltiples compartimentos.',
+            'precio' => 45.99,
                 'created_at'=> now(),
                 'updated_at'=> now(),
             ],
             [
-                'nombre'=> 'Mochila Campo',
-                'origen'=>'USA',
+                  'nombre' => 'Mochila Urbana Classic',
+            'marca_id' => $usaId,
+            'descripcion' => 'Mochila ideal para el día a día, con múltiples compartimentos.',
+            'precio' => 45.99,
                 'created_at'=> now(),
                 'updated_at'=> now(),
             ]
